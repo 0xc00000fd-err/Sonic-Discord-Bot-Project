@@ -3,10 +3,6 @@ import discord
 client = discord.Client()
 
 
-#now_version="2.1"
-    
-now_version="31th.tk"
-
 
 @client.event
 async def on_ready():
