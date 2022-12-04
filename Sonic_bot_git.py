@@ -26,7 +26,7 @@ async def on_message(message):
     """음성 채널 참여 테스트"""    
     if message.content.startswith("voice channal - in"):
        await message.author.voice.channel.connect()
-       await message.channel.send("Ok!")
+       await message.channel.send("알겠어!")
        
     """음성 채널 아웃 """
     if message.content.startswith("voice channal - out"):
@@ -35,7 +35,7 @@ async def on_message(message):
                 voice=vc
         
         await voice.disconnect()
-        await message.channel.send("..done!")
+        await message.channel.send("알겠어!")
         
         
 
