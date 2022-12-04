@@ -9,7 +9,7 @@ async def on_ready():
     
     
     
-    await client.change_presence(status=discord.Status.online, activity = discord.Activity(type=discord.ActivityType.listening, name="Green Hill Zone"))
+    await client.change_presence(status=discord.Status.online, activity = discord.Activity(type=discord.ActivityType.listening, name="Vandalize - ONE OK ROCK"))
 
 """디스코드 봇 상태 설정하기"""
 
