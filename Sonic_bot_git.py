@@ -17,8 +17,8 @@ async def on_ready():
 
 async def on_message(message):
     """메세지 입력 반응 테스트"""
-    if message.content == '안녕':
-        await message.channel.send("안녕!")
+    if message.content == '소닉':
+        await message.channel.send("나 불렀어?")
     
     
     
